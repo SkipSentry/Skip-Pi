@@ -1,4 +1,4 @@
-# SkipPi
+# Skip-Pi
 Use AI to automatically press the skip button for long skipable Youtube ads on your smart TV (currently Roku only). 
 
 **Inspiration:**
@@ -57,9 +57,6 @@ Position the camera in the bottom right corner of your smart TV (currently Roku 
 -_Expand feature sets and UI._ Most of the UI was made so I could keep track of what the AI was doing but I would like to have a camera preview page, maybe a page for logs, and maybe some other things to make life easier.
 
 -_Write an install script._ Instead of manually typing out all the setup.
-
-
-
 
 
 **Food for thought:**
