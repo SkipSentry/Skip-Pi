@@ -1,0 +1,51 @@
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1000px;
+  }
+}
+
+body {
+  background-color: #383838;
+  color: rgb(230, 223, 223);
+  font-family: "Kanit", sans-serif;
+}
+
+#container {
+}
+.sphere {
+  display: flex;
+  background: rgb(27, 27, 28);
+  border-radius: 300px;
+  height: 100px;
+  width: 100px;
+}
+#container::after {
+  background: rgb(208, 205, 205);
+  border-radius: 300px;
+  height: 50px;
+  width: 50px;
+  animation: pulsate 2.5s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  content: "";
+  z-index: -1;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2, 1.2);
+    opacity: 0;
+  }
+}
