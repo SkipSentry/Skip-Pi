@@ -7,7 +7,7 @@ YouTube has extremely long skipable ads. I'm all about supporting content creato
 
 **How it works:**
 
-SkipPi will take a picture of your screen every 5ish seconds and have the AI inspect the image. If it detects a skip button it will make an HTTP request to your smart TV (currently Roku only) telling it to hit the 'Enter' key which will press the 'Skip Ads' button on a YouTube video. Currently the AI is about 94% accurate and I am working to improve upon it (I'm a programmer dipping into data science stuff for the first time).
+SkipPi will take a picture of your screen every 5 seconds and have the AI inspect the image. If it detects a skip button it will make an HTTP request to your smart TV (currently Roku only) telling it to hit the 'Enter' key which will press the 'Skip Ads' button on a YouTube video. Currently the AI is about 94% accurate and I am working to improve upon it (I'm a programmer dipping into data science stuff for the first time).
 
 Why is it currently Roku only? Well for starters I only have a Roku and not.....every smart TV in existence. Another reason is that Roku has a surprisingly friendly API which makes it easy to make HTTP calls to. 
 
