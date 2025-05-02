@@ -59,9 +59,7 @@ Position the camera in the bottom right corner of your smart TV (currently Roku 
 -_Write an install script._ Instead of manually typing out all the setup.
 
 
-**Food for thought:**
 
-Pi-Hole is wonderful no doubt about that, but it has always been a cat and mouse game with youtube ads. I was looking around in the Pi-Hole API to see if there could be some way to tell it that the last query was a ad and not a video and to add it to the blocklist. Something like that possibly would be pretty neat if it works.
 
 
 
