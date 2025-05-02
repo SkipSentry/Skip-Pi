@@ -41,7 +41,6 @@ There is commented out code in ```/api/StartSkip.py```  that will send a message
 ```
 The app should now be running on port 5000 at the IP address of the Raspberry Pi (ex: 192.168.1.5:5000) and you should be able to connect to it with a web browser. If you are unsure of your Raspberry Pi's IP address, in a terminal run the _ifconfig_ command.
 
-Once you are in the web app follow the instructions to connect to your smart TV and have piece of mind that you will only have to endure 5 seconds of that 3 hour Christmas concert ad.
 
 **Pi Camera Position:**
 
